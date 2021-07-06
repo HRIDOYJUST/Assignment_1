@@ -2,12 +2,40 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 
 
 }
+.navbar{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#11B2FB,white);
+    position: fixed;
+}
+.nav-name{
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    color:white;
+}
 
+.nav-item{
+    margin-top: 50px;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 30px;
+
+    
+}
 .section-1{
     display: flex;
+    padding-top: 60px;
+    
 
 }
 .section-1 h1{
@@ -33,7 +61,7 @@ body{
 .first-left{
     width:50%;
     margin-left: 20px;
-    margin-top: 400px;
+    margin-top: 300px;
     padding: 40px;
 
     
@@ -98,6 +126,17 @@ body{
 }
 .box-1 img{
     width: 100%;
+}
+.bottom-box{
+    display: flex;
+    margin: 50px;
+    border: 1px solid white;
+    box-shadow: -1px 2px 18px 5px grey;;
+    text-align: center;
+}
+.bottom-box span{
+    margin:10px;
+    width:33.34%;
 }
 .footer{
     padding:50px;
